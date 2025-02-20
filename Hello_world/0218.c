@@ -263,7 +263,7 @@ void answp_3_3(void) {
 void thtn(void) {
 	int n, i, j;
 	int cnt = 0;
-	printf("2 이상의 정수를 입력하세요 : ");
+	printf("3 이상의 정수를 입력하세요 : ");
 	scanf("%d", &n);
 	for (i = 2; i <= n; i++) {
 		for (j = 2; j < i; j++) {
